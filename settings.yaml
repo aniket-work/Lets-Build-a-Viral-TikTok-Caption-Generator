@@ -1,0 +1,34 @@
+# TikTok Caption Generator - Environment Settings
+# Configuration settings that may change between environments
+
+# Model Settings
+models:
+  caption:
+    primary: "google/flan-t5-base"
+    fallback: "google/flan-t5-small"
+    emergency: "distilgpt2"
+  embedding:
+    primary: "sentence-transformers/all-MiniLM-L6-v2"
+    fallback: "distilbert-base-uncased"
+
+# Performance Settings
+performance:
+  vector_index: "faiss-cpu"  # Options: faiss-cpu, faiss-gpu
+  max_prompt_length: 512
+  max_output_length: 150
+  num_return_sequences: 1
+
+# UI Settings
+ui:
+  initial_sidebar_state: "expanded"
+  default_style: "default"
+  show_methodology_default: false
+
+# File Paths
+paths:
+  trendy_data: "./data/trendy_data.json"
+
+# Debug Settings
+debug:
+  enable_logging: true
+  verbose_model_status: true

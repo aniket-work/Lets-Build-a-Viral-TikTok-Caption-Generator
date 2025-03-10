@@ -1,0 +1,15 @@
+transformers
+torch
+numpy
+faiss-cpu
+sentence-transformers
+tqdm
+requests
+protobuf
+regex
+pyyaml
+safetensors
+filelock
+tiktoken
+blobfile
+accelerate

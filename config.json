@@ -1,0 +1,64 @@
+{
+  "app": {
+    "title": "TikTok Viral Caption Generator",
+    "icon": "✨",
+    "layout": "wide",
+    "initial_sidebar_state": "expanded"
+  },
+  "styles": {
+    "main_header": {
+      "font_size": "2.5rem",
+      "color": "#FF0050",
+      "text_align": "center",
+      "margin_bottom": "1rem"
+    },
+    "sub_header": {
+      "font_size": "1.5rem",
+      "color": "#333333",
+      "margin_bottom": "1rem"
+    },
+    "caption_output": {
+      "background_color": "#f8f9fa",
+      "border_radius": "10px",
+      "padding": "20px",
+      "border_left": "5px solid #FF0050",
+      "margin": "20px 0px"
+    },
+    "highlight": {
+      "color": "#FF0050",
+      "font_weight": "bold"
+    },
+    "success_message": {
+      "background_color": "#d1e7dd",
+      "border_radius": "5px",
+      "padding": "10px",
+      "margin": "10px 0px"
+    },
+    "loading_message": {
+      "color": "#6c757d",
+      "font_style": "italic",
+      "margin": "10px 0px"
+    },
+    "hashtag": {
+      "background_color": "#e9ecef",
+      "border_radius": "15px",
+      "padding": "5px 10px",
+      "margin": "5px",
+      "display": "inline-block",
+      "font_size": "0.85rem"
+    },
+    "emoji_container": {
+      "font_size": "1.5rem",
+      "margin": "10px 0px"
+    }
+  },
+  "sidebar": {
+    "about_text": "This tool uses AI to generate captions optimized for TikTok engagement and virality.",
+    "sections": ["About", "Model Status", "Additional Options"]
+  },
+  "form_options": {
+    "caption_styles": ["default", "template", "minimal", "emoji-heavy"],
+    "target_audience": ["Teens", "Young Adults", "Adults", "Parents", "Professionals", "Students"],
+    "emotional_tones": ["Humorous", "Informative", "Inspirational", "Controversial", "Emotional"]
+  }
+}
